@@ -1,0 +1,36 @@
+{
+  "events": [
+    {
+      "type": "tabsChanged",
+      "opened": []
+    },
+    {
+      "type": "tabsChanged",
+      "opened": [
+        "target.html"
+      ]
+    },
+    {
+      "type": "tabsChanged",
+      "opened": []
+    },
+    {
+      "type": "documentOpened",
+      "uri": "file:///c%3A/q/arc/projects/vscode/markdown-link-repair/.gate-runtime/early/target.html"
+    }
+  ],
+  "sourceUnchanged": true,
+  "dirty": false,
+  "sourceVersion": 1,
+  "diskUnchanged": true,
+  "tabs": [
+    {
+      "label": "fixture.md",
+      "input": "file:///c%3A/q/arc/projects/vscode/markdown-link-repair/.gate-runtime/early/fixture.md"
+    },
+    {
+      "label": "target.html",
+      "input": "file:///c%3A/q/arc/projects/vscode/markdown-link-repair/.gate-runtime/early/target.html"
+    }
+  ]
+}

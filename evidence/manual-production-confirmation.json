@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-26",
+  "evidenceType": "user-reported manual verification",
+  "profile": "real default profile, visible extension development window",
+  "procedure": "Developer: Reload Window; close target.html; return to fixture.md; Ctrl+click its native Windows path",
+  "userResponse": "Opened once; fixture stayed clean",
+  "passed": true,
+  "limits": "This confirmation does not claim all-enabled-profile visual feature coverage or production event instrumentation. Existing globally disabled extensions remained unchanged."
+}

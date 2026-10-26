@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-26",
+  "profile": "Default",
+  "userDataDirectory": "C:\\Users\\rmhin\\AppData\\Roaming\\Code",
+  "extensionsDirectory": "C:\\Users\\rmhin\\.vscode\\extensions",
+  "extension": "local.markdown-link-repair",
+  "version": "0.1.0",
+  "cliInstallSucceeded": true,
+  "verifiedInstalledListing": "local.markdown-link-repair@0.1.0",
+  "globallyDisabled": false,
+  "installedBundleMatchesBuild": true,
+  "bundleSha256": "32DB73B32C8D4BFF9E1494BB18D7320D1BA0DAFC7B2673CDFF6D7B1C329AC0DF",
+  "otherExtensionEnablementChanged": false,
+  "normalWindowActivation": "Reload an existing normal window if needed; installation verification did not automate a window reload."
+}

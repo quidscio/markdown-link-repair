@@ -1,0 +1,172 @@
+{
+  "vscode": "1.143.1",
+  "platform": "win32",
+  "remoteName": null,
+  "trusted": true,
+  "mode": "late",
+  "interactive": true,
+  "liveProfile": false,
+  "started": "2026-10-26T19:51:05.236Z",
+  "extensions": [
+    {
+      "id": "vscode.markdown-language-features",
+      "availableInHost": true,
+      "version": "10.0.0",
+      "active": true
+    },
+    {
+      "id": "yzhang.markdown-all-in-one",
+      "availableInHost": true,
+      "version": "3.6.3",
+      "active": true
+    },
+    {
+      "id": "DavidAnson.vscode-markdownlint",
+      "availableInHost": true,
+      "version": "0.62.1",
+      "active": true
+    },
+    {
+      "id": "bierner.markdown-mermaid",
+      "availableInHost": true,
+      "version": "1.32.1",
+      "active": true
+    },
+    {
+      "id": "openai.chatgpt",
+      "availableInHost": true,
+      "version": "26.1021.22027",
+      "active": false
+    },
+    {
+      "id": "Anthropic.claude-code",
+      "availableInHost": true,
+      "version": "2.1.310",
+      "active": false
+    },
+    {
+      "id": "tomoki1207.pdf",
+      "availableInHost": true,
+      "version": "1.2.2",
+      "active": false
+    },
+    {
+      "id": "streetsidesoftware.code-spell-checker",
+      "availableInHost": true,
+      "version": "4.9.3",
+      "active": false
+    },
+    {
+      "id": "fukuchiharuki.paragraph-writing-support",
+      "availableInHost": true,
+      "version": "1.0.0",
+      "active": false
+    },
+    {
+      "id": "jebbs.plantuml",
+      "availableInHost": true,
+      "version": "2.18.1",
+      "active": true
+    },
+    {
+      "id": "EFanZh.graphviz-preview",
+      "availableInHost": true,
+      "version": "1.7.5",
+      "active": false
+    }
+  ],
+  "beforeLateRegistration": [
+    {
+      "range": [
+        0,
+        9,
+        0,
+        92
+      ],
+      "target": "file:///c%3A/q/arc/projects/vscode/markdown-link-repair/.gate-runtime/manual-late/C%3A%5Cq%5Carc%5Cprojects%5Cvscode%5Cmarkdown-link-repair%5C.gate-runtime%5Cmanual-late%5Ctarget.html"
+    }
+  ],
+  "withProbe": [
+    {
+      "range": [
+        0,
+        9,
+        0,
+        92
+      ],
+      "target": "file:///c%3A/q/arc/projects/vscode/markdown-link-repair/.gate-runtime/manual-late/target.html"
+    }
+  ],
+  "expected": "file:///c%3A/q/arc/projects/vscode/markdown-link-repair/.gate-runtime/manual-late/target.html",
+  "extensionsAfter": [
+    {
+      "id": "vscode.markdown-language-features",
+      "availableInHost": true,
+      "version": "10.0.0",
+      "active": true
+    },
+    {
+      "id": "yzhang.markdown-all-in-one",
+      "availableInHost": true,
+      "version": "3.6.3",
+      "active": true
+    },
+    {
+      "id": "DavidAnson.vscode-markdownlint",
+      "availableInHost": true,
+      "version": "0.62.1",
+      "active": true
+    },
+    {
+      "id": "bierner.markdown-mermaid",
+      "availableInHost": true,
+      "version": "1.32.1",
+      "active": true
+    },
+    {
+      "id": "openai.chatgpt",
+      "availableInHost": true,
+      "version": "26.1021.22027",
+      "active": false
+    },
+    {
+      "id": "Anthropic.claude-code",
+      "availableInHost": true,
+      "version": "2.1.310",
+      "active": false
+    },
+    {
+      "id": "tomoki1207.pdf",
+      "availableInHost": true,
+      "version": "1.2.2",
+      "active": false
+    },
+    {
+      "id": "streetsidesoftware.code-spell-checker",
+      "availableInHost": true,
+      "version": "4.9.3",
+      "active": false
+    },
+    {
+      "id": "fukuchiharuki.paragraph-writing-support",
+      "availableInHost": true,
+      "version": "1.0.0",
+      "active": false
+    },
+    {
+      "id": "jebbs.plantuml",
+      "availableInHost": true,
+      "version": "2.18.1",
+      "active": true
+    },
+    {
+      "id": "EFanZh.graphviz-preview",
+      "availableInHost": true,
+      "version": "1.7.5",
+      "active": false
+    }
+  ],
+  "sourceUnchanged": true,
+  "dirty": false,
+  "awaitingManualCtrlClick": true
+}

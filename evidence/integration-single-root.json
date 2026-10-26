@@ -1,0 +1,157 @@
+{
+  "vscode": "1.143.1",
+  "trusted": true,
+  "remote": null,
+  "combinedLinks": [
+    {
+      "range": [
+        0,
+        20,
+        0,
+        116
+      ],
+      "scheme": "command",
+      "command": "markdownLinkRepair.follow"
+    },
+    {
+      "range": [
+        2,
+        0,
+        2,
+        8
+      ],
+      "scheme": "command",
+      "command": "markdownLinkRepair.follow"
+    },
+    {
+      "range": [
+        4,
+        0,
+        4,
+        8
+      ],
+      "scheme": "command",
+      "command": "markdownLinkRepair.follow"
+    },
+    {
+      "range": [
+        6,
+        6,
+        6,
+        102
+      ],
+      "scheme": "command",
+      "command": "markdownLinkRepair.follow"
+    },
+    {
+      "range": [
+        8,
+        11,
+        8,
+        26
+      ],
+      "scheme": "file"
+    },
+    {
+      "range": [
+        8,
+        38,
+        8,
+        46
+      ],
+      "scheme": "file"
+    },
+    {
+      "range": [
+        8,
+        54,
+        8,
+        73
+      ],
+      "scheme": "https"
+    },
+    {
+      "range": [
+        2,
+        6,
+        2,
+        7
+      ],
+      "scheme": "file"
+    },
+    {
+      "range": [
+        4,
+        6,
+        4,
+        7
+      ],
+      "scheme": "file"
+    },
+    {
+      "range": [
+        6,
+        6,
+        6,
+        102
+      ],
+      "scheme": "file"
+    }
+  ],
+  "pdfViewType": "pdf.preview",
+  "extensions": [
+    {
+      "id": "vscode.markdown-language-features",
+      "availableInHost": true,
+      "version": "10.0.0",
+      "active": true
+    },
+    {
+      "id": "yzhang.markdown-all-in-one",
+      "availableInHost": true,
+      "version": "3.6.3",
+      "active": true
+    },
+    {
+      "id": "DavidAnson.vscode-markdownlint",
+      "availableInHost": true,
+      "version": "0.62.1",
+      "active": true
+    },
+    {
+      "id": "bierner.markdown-mermaid",
+      "availableInHost": true,
+      "version": "1.32.1",
+      "active": true
+    },
+    {
+      "id": "openai.chatgpt",
+      "availableInHost": true,
+      "version": "26.1021.22027",
+      "active": true
+    },
+    {
+      "id": "Anthropic.claude-code",
+      "availableInHost": true,
+      "version": "2.1.310",
+      "active": true
+    },
+    {
+      "id": "tomoki1207.pdf",
+      "availableInHost": true,
+      "version": "1.2.2",
+      "active": true
+    }
+  ],
+  "checks": [
+    "Windows Uri.file round trips native %, #, Unicode, parentheses, UNC and drive variants",
+    "Merged links contain exactly four repaired ranges and preserve ordinary links",
+    "Following a repaired link opens intended target exactly once and leaves CRLF disk/editor clean",
+    "Repeated references open the same target; unsaved edits remain unchanged",
+    "Editor follow-link routing chooses repaired reference identifiers despite overlapping links",
+    "Missing file creates neither tab, directory nor placeholder",
+    "PDF uses the same configured custom editor as an explicit file URI",
+    "Disable setting removes only this provider; re-enable restores it",
+    "Loose LF Markdown source opens an outside-workspace absolute target"
+  ]
+}

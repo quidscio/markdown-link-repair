@@ -1,0 +1,44 @@
+{
+  "name": "markdown-link-repair",
+  "displayName": "Markdown Link Repair",
+  "description": "Follow native Windows Markdown file links without editing the document.",
+  "version": "0.1.0",
+  "publisher": "local",
+  "private": true,
+  "engines": {
+    "vscode": "^1.143.0"
+  },
+  "main": "./out/extension.js",
+  "extensionKind": ["ui"],
+  "activationEvents": ["onLanguage:markdown"],
+  "categories": ["Other"],
+  "license": "MIT",
+  "capabilities": { "untrustedWorkspaces": { "supported": false }, "virtualWorkspaces": { "supported": false } },
+  "contributes": {
+    "commands": [{ "command": "markdownLinkRepair.diagnose", "title": "Markdown Link Repair: Diagnose Current Document" }],
+    "configuration": {
+      "title": "Markdown Link Repair",
+      "properties": {
+        "markdownLinkRepair.enabled": { "type": "boolean", "default": true, "scope": "resource", "description": "Repair native Windows file links during normal editor link following." },
+        "markdownLinkRepair.debug": { "type": "boolean", "default": false, "description": "Log local analysis counts to the Markdown Link Repair output channel." }
+      }
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p . --noEmit && node scripts/build.cjs",
+    "test": "npm run compile && node --test test/unit.cjs",
+    "test:gate": "npm run compile && node scripts/run-gate.cjs",
+    "test:integration": "npm run compile && node scripts/run-integration.cjs",
+    "package": "npm run compile && vsce package --allow-missing-repository --no-rewrite-relative-links --no-dependencies"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/vscode": "^1.110.0",
+    "@vscode/vsce": "^4.0.0",
+    "esbuild": "^0.28.2",
+    "typescript": "^5.9.0"
+  },
+  "dependencies": {
+    "mdast-util-from-markdown": "^2.1.0"
+  }
+}

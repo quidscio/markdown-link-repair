@@ -1,0 +1,160 @@
+{
+  "vscode": "1.143.1",
+  "platform": "win32",
+  "remoteName": null,
+  "trusted": true,
+  "mode": "early",
+  "interactive": true,
+  "liveProfile": false,
+  "started": "2026-10-26T19:50:29.496Z",
+  "extensions": [
+    {
+      "id": "vscode.markdown-language-features",
+      "availableInHost": true,
+      "version": "10.0.0",
+      "active": true
+    },
+    {
+      "id": "yzhang.markdown-all-in-one",
+      "availableInHost": true,
+      "version": "3.6.3",
+      "active": true
+    },
+    {
+      "id": "DavidAnson.vscode-markdownlint",
+      "availableInHost": false
+    },
+    {
+      "id": "bierner.markdown-mermaid",
+      "availableInHost": false
+    },
+    {
+      "id": "openai.chatgpt",
+      "availableInHost": true,
+      "version": "26.1021.22027",
+      "active": false
+    },
+    {
+      "id": "Anthropic.claude-code",
+      "availableInHost": true,
+      "version": "2.1.310",
+      "active": false
+    },
+    {
+      "id": "tomoki1207.pdf",
+      "availableInHost": true,
+      "version": "1.2.2",
+      "active": false
+    },
+    {
+      "id": "streetsidesoftware.code-spell-checker",
+      "availableInHost": true,
+      "version": "4.9.3",
+      "active": false
+    },
+    {
+      "id": "fukuchiharuki.paragraph-writing-support",
+      "availableInHost": true,
+      "version": "1.0.0",
+      "active": false
+    },
+    {
+      "id": "jebbs.plantuml",
+      "availableInHost": false
+    },
+    {
+      "id": "EFanZh.graphviz-preview",
+      "availableInHost": true,
+      "version": "1.7.5",
+      "active": false
+    }
+  ],
+  "beforeLateRegistration": [
+    {
+      "range": [
+        0,
+        9,
+        0,
+        86
+      ],
+      "target": "file:///c%3A/q/arc/projects/vscode/markdown-link-repair/.gate-runtime/early/target.html"
+    }
+  ],
+  "withProbe": [
+    {
+      "range": [
+        0,
+        9,
+        0,
+        86
+      ],
+      "target": "file:///c%3A/q/arc/projects/vscode/markdown-link-repair/.gate-runtime/early/target.html"
+    }
+  ],
+  "expected": "file:///c%3A/q/arc/projects/vscode/markdown-link-repair/.gate-runtime/early/target.html",
+  "extensionsAfter": [
+    {
+      "id": "vscode.markdown-language-features",
+      "availableInHost": true,
+      "version": "10.0.0",
+      "active": true
+    },
+    {
+      "id": "yzhang.markdown-all-in-one",
+      "availableInHost": true,
+      "version": "3.6.3",
+      "active": true
+    },
+    {
+      "id": "DavidAnson.vscode-markdownlint",
+      "availableInHost": false
+    },
+    {
+      "id": "bierner.markdown-mermaid",
+      "availableInHost": false
+    },
+    {
+      "id": "openai.chatgpt",
+      "availableInHost": true,
+      "version": "26.1021.22027",
+      "active": false
+    },
+    {
+      "id": "Anthropic.claude-code",
+      "availableInHost": true,
+      "version": "2.1.310",
+      "active": false
+    },
+    {
+      "id": "tomoki1207.pdf",
+      "availableInHost": true,
+      "version": "1.2.2",
+      "active": false
+    },
+    {
+      "id": "streetsidesoftware.code-spell-checker",
+      "availableInHost": true,
+      "version": "4.9.3",
+      "active": false
+    },
+    {
+      "id": "fukuchiharuki.paragraph-writing-support",
+      "availableInHost": true,
+      "version": "1.0.0",
+      "active": false
+    },
+    {
+      "id": "jebbs.plantuml",
+      "availableInHost": false
+    },
+    {
+      "id": "EFanZh.graphviz-preview",
+      "availableInHost": true,
+      "version": "1.7.5",
+      "active": false
+    }
+  ],
+  "sourceUnchanged": true,
+  "dirty": false,
+  "awaitingManualCtrlClick": true
+}
